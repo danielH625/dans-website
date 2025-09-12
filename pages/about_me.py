@@ -38,4 +38,5 @@ st.write("""
          - **Networking**: Reconnaissance, service enumeration, TCP/IP fundamentals
          - **Scripting & Automation**: Python (basic exploit scripts, log parsing)
          - **Operating Systems & Enviornment**: Kali Linux, Arch Linux, Ubuntu, Windows 10/11, Proxmox/Docker lab deployments
+         - TEST
          """)
