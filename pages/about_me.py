@@ -1,4 +1,5 @@
 import streamlit as st
+from st_social_media_links import SocialMediaIcons
 
 from forms.contact import contact_form
 
@@ -39,3 +40,14 @@ st.write("""
          - **Scripting & Automation**: Python (basic exploit scripts, log parsing)
          - **Operating Systems & Enviornment**: Kali Linux, Arch Linux, Ubuntu, Windows 10/11, Proxmox/Docker lab deployments
          """)
+
+# --- SOCIALS ---
+st.divider()
+
+social_media_links = [
+    "https://github.com/danielH625",
+    "https://www.linkedin.com/in/daniel-herrera14"
+]
+
+social_media_icons = SocialMediaIcons(social_media_links)
+social_media_icons.render()
