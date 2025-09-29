@@ -39,7 +39,7 @@ with sans_col1:
   components.html(advisory_html, height=250)
 
   st.subheader("GIAC Certified Incident Handler (GCIH)")
-  st.write("Credly badge link below:", anchor=False)
+  st.write("Credly badge link below:")
   components.html(gcih_html, height=250)
 
 with sans_col2:
