@@ -28,6 +28,7 @@ st.write("""
          - Active participant in Capture the Flag (CTF) competitions in various categories
          - Exposure to penetration testing methodology (reconnaissance, scanning, exploitation, post-exploitation)
          - Passion for cybersecurity and eagerness to learn form real-world security challenges
+         - Test
          """)
 
 # --- SKILLS ---
