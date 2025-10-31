@@ -33,7 +33,6 @@ pg = st.navigation({
 
 # --- SHARED ON ALL PAGES ---
 st.logo("assets/danilslab_logo.png")
-# st.sidebar.text("Made Mediocre at Best 😎")
 st.sidebar.text("降驤眠啹附鹮ꍥ 😎")
 
 # --- RUN NAVIGATION ---

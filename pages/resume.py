@@ -10,7 +10,7 @@ with open(pdf_path, "rb") as f:
   pdf_bytes = f.read()
   base64_pdf = base64.b64encode(pdf_bytes).decode("utf-8")
 
-# Embed PDF viewer
+# -- EMBED PDF VIEWER --
 pdf_display = f"""
 <iframe
     src="data:application/pdf;base64,{base64_pdf}"
