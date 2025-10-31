@@ -14,7 +14,7 @@ with open(pdf_path, "rb") as f:
 pdf_display = f"""
 <iframe
     src="data:application/pdf;base64,{base64_pdf}"
-    width="110%"
+    width="100%"
     height="900"
     type="application/pdf">
 </iframe>
@@ -25,5 +25,5 @@ st.markdown(pdf_display, unsafe_allow_html=True)
 st.divider()
 st.download_button(label="📥 Download PDF",
                    data=pdf_bytes,
-                   file_name="resume.pdf",
+                   file_name="daniel_herrera_resume.pdf",
                    mime="application/pdf")
