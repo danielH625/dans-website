@@ -14,8 +14,8 @@ certification_page = st.Page(
     icon=":material/workspace_premium:",
 )
 writeup_1_page = st.Page(
-    page="pages/test_ctf_writeup.py",
-    title="NCL Fall 2025",
+    page="pages/ncl_2025_overview.py",
+    title="NCL Fall 2025 Overview",
     icon=":material/contract_edit:",
 )
 
