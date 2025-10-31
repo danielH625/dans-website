@@ -19,6 +19,13 @@ with col2:
   if st.button("✉️ Contact Me"):
     show_contact_form()
 
+# -- ABOUT ME --
+st.write("\n")
+st.subheader("About Me")
+st.write("""
+         GIAC-certified cybersecurity student passionate about defense, offense, incident handling, and real-world problem solving. Currently earning a B.S. in Applied Cybersecurity while developing practical skills through CTFs, lab environments, and advanced coursework.
+         """)
+
 # --- EXPIRENCE & QUALIFICATIONS ---
 st.write("\n")
 st.subheader("Experience & Qualifications", anchor=False)
@@ -34,11 +41,11 @@ st.write("""
 st.write("\n")
 st.subheader("Hard Skills", anchor=False)
 st.write("""
-         - **Penetration Testing Tools**: Nmap, Burp Suite, Metasploit, Hashcat, JohnTheRipper, CEwl, SQLMap, SMBeagle, SMBClient, FFuF, etc.
-         - **Web Security**: Cross-site scripting (XXS), SQL injection, Insecure Direct Object Reference (IDOR), Directory Traversal 
-         - **Networking**: Reconnaissance, service enumeration, TCP/IP fundamentals
-         - **Scripting & Automation**: Python (basic exploit scripts, log parsing)
-         - **Operating Systems & Enviornment**: Kali Linux, Arch Linux, Ubuntu, Windows 10/11, Proxmox/Docker lab deployments
+         - **Cybersecurity & Network Analysis**: Network scanning, incident handling, intrusion detection, defense-in-depth, log analysis, network hardening
+         - **Tools & Frameworks**: Nmap, Masscan, Wireshark, tcpdump, Metasploit, SQLMap, FFuF, Hashcat, John the Ripper, Responder, Aircrack-ng, RITA/Zeek 
+         - **Operating Systems & Environments**: Windows 10/11, Kali Linux, Arch Linux, Ubuntu, Proxmox VE, Docker containers
+         - **Programming & Scripting**: Python, Bash, basic PowerShell, basic C
+         - **Concepts**: TCP/IP, DNS, cryptography, firewalls, access control, PKI, vulnerability exploitation & mitigation
          """)
 
 # --- SOCIALS ---

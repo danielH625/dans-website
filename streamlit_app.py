@@ -13,6 +13,9 @@ certification_page = st.Page(
     title="Certifications",
     icon=":material/workspace_premium:",
 )
+resume_page = st.Page(page="pages/resume.py",
+                      title="My Resume",
+                      icon=":material/docs:")
 writeup_1_page = st.Page(
     page="pages/ncl_2025_overview.py",
     title="NCL Fall 2025 Overview",
@@ -24,7 +27,7 @@ writeup_1_page = st.Page(
 
 # --- NAVIGATION SETUP [WITH SECTIONS] ---
 pg = st.navigation({
-    "Info": [about_page, certification_page],
+    "Info": [about_page, certification_page, resume_page],
     "CTF-Writeups": [writeup_1_page],
 })
 
