@@ -66,3 +66,7 @@ with ctf_col2:
   st.subheader("NCAE Cyber Games")
   st.write("Canvas badge link below:")
   components.html(ncae_html, height=250)
+
+with ctf_col1:
+  st.subheader("NCL Fall 2025")
+  st.image("./assets/ncl-badge-2025.png", width=180)
