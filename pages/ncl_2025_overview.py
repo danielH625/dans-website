@@ -4,51 +4,30 @@ st.title("NCL Fall 2025 Overview")
 st.write(
     ">NCL prohibits public facing writeups of their challenges. This will be just a general overview along with my score card"
 )
-# -- PRACTICE GAME OVERVIEW --
-st.subheader("Practice Game")
-st.write(
-    "The practice was a week long and consisted of the consisted of the following categories:"
-)
+
+st.divider()
+
+# -- GAME OVERVIEW --
+st.subheader("Overview")
 st.write("""
-         - Open Source Intelligence
-         - Cryptography
-         - Password Cracking
-         - Log analysis
-         - Network Traffic Analysis
-         - Forensics
-         - Web Application Exploitation
-         - Enumeration & Exploitation
+         The NCL CTF was broken into three phases, Practice Game, Individual Game, and Team Game. All three contained very similar categories such as Open Source Intelligence, Cryptography, Password Cracking, Log Analysis, Network Traffic Analysis, Forensics, Web Exploitation, Scanning and Reconnaissance, and Enumeration and Exploitation. As you progress through the various games, the difficulty increases with the team game being the most challenging.
          """)
-st.write(
-    "I managed to 100% complete each category except for two password hashes on the last challenge. My completion of this challenge really boosted my confidence and made me feel like I could get to at least the 90% range on the individual game."
-)
-st.write("**Completion and Accuracy**: 98.5% complete 71.5% accuracy")
-
-# -- INDIVIDUAL GAME OVERVIEW --
-st.subheader("Individual Game")
-st.write(
-    "The individual game was a three day long event (Friday-Sunday) and consisted of the following categories:"
-)
 st.write("""
-             - Open Source Intelligence 
-             - Cryptography 
-             - Password Cracking 
-             - Log Analysis 
-             - Network Traffic Analysis 
-             - Forensics 
-             - Scanning & Reconnaissance  
-             - Web Application Exploitation 
-             - Enumeration & Exploitation
+         Overall, NCL is a ton of fun; they give you some extremely easy challenges and ones that give you imposter syndrome. I’ve done a handful of CTFs, and this was only the second time I got to play in a team game. Playing in the Team game was a ton of fun and really let me see others' perspective while working through challenges. Also, the ability to collaborate and work together was extremely rewarding.
          """)
-st.write(
-    "This game stepped up in complexity. These challenges were slightly harder than the practice game and with the time constraint I wasn’t able to hit my goal of 90% or above complete, but I did come close. The only category I was able to complete was cryptography. However, all the challenges were a lot of fun, taught me new things, and helped me understand things that I need to develop to better prepare myself for future challenges."
-)
-st.write("**Completion and Accuracy**: 85.3% complete 81.0% accuracy")
 
-# -- TEAM GAME OVERVIEW
-st.subheader("Team Game")
-st.write("**TEAMGAME BEGINS ON NOVEMBER 7: COMMING SOON**")
+st.divider()
 
-# -- SCOUTING REPORT --
-st.subheader("Scouting Report")
-st.write("**SCOUTING REPORTS HAVE NOT BEEN SENT OUT YET: COMMING SOON**")
+# -- INDIVIDUAL SCOUTING REPORT --
+st.subheader("Individual Game Scouting Report")
+st.write("**Click the button below:**")
+st.link_button("Individual Score Report",
+               "https://cyberskyline.com/report/85J2L02FKXJ0")
+
+# -- TEAM SCOUTING REPORT --
+st.subheader("**Team Game Scouting Report**")
+st.write("Click the button below:")
+st.link_button("Team Score Report",
+               "https://cyberskyline.com/report/7KEUFMEGFHPK")
+
+st.divider()
