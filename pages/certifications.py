@@ -18,6 +18,10 @@ gcih_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="437aaf1b-28a8-4533-b177-06dfe9714c15" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
 
+gpyc_html = """
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a8f8c6a4-609f-4603-887b-9b678f6de33e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+"""
+
 advisory_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b219444d-2a56-4a51-8e39-bbb621cf9dcb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
@@ -46,6 +50,10 @@ with sans_col2:
   st.subheader("GIAC Foundational Cybersecurity Technologies (GFACT)")
   st.write("Credly badge link below:")
   components.html(gfact_html, height=250)
+
+  st.subheader("GIAC Certified Incident Handler (GCIH)")
+  st.write("Credly badge link below:")
+  components.html(gpyc_html, height=250)
 
 with sans_col3:
   st.subheader("GIAC Security Essentials Certification (GSEC)")
