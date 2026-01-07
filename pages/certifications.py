@@ -51,7 +51,7 @@ with sans_col2:
   st.write("Credly badge link below:")
   components.html(gfact_html, height=250)
 
-  st.subheader("GIAC Certified Incident Handler (GCIH)")
+  st.subheader("GIAC Python Coder (GPYC)")
   st.write("Credly badge link below:")
   components.html(gpyc_html, height=250)
 
