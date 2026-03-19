@@ -22,6 +22,10 @@ gpyc_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a8f8c6a4-609f-4603-887b-9b678f6de33e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
 
+gcia_html = """
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a9606881-af56-487b-b37c-b2bb6ac35ee7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+"""
+
 advisory_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b219444d-2a56-4a51-8e39-bbb621cf9dcb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
@@ -36,45 +40,53 @@ ncae_html = """
 
 st.title("SANS Certifications")
 
-sans_col1, sans_col2, sans_col3, = st.columns(3, gap='small')
+(
+    sans_col1,
+    sans_col2,
+    sans_col3,
+) = st.columns(3, gap="small")
 with sans_col1:
-  st.subheader("GIAC Advisory Board")
-  st.write("Credly badge link below:")
-  components.html(advisory_html, height=250)
+    st.subheader("GIAC Advisory Board")
+    st.write("Credly badge link below:")
+    components.html(advisory_html, height=250)
 
-  st.subheader("GIAC Certified Incident Handler (GCIH)")
-  st.write("Credly badge link below:")
-  components.html(gcih_html, height=250)
+    st.subheader("GIAC Certified Incident Handler (GCIH)")
+    st.write("Credly badge link below:")
+    components.html(gcih_html, height=250)
 
 with sans_col2:
-  st.subheader("GIAC Foundational Cybersecurity Technologies (GFACT)")
-  st.write("Credly badge link below:")
-  components.html(gfact_html, height=250)
+    st.subheader("GIAC Foundational Cybersecurity Technologies (GFACT)")
+    st.write("Credly badge link below:")
+    components.html(gfact_html, height=250)
 
-  st.subheader("GIAC Python Coder (GPYC)")
-  st.write("Credly badge link below:")
-  components.html(gpyc_html, height=250)
+    st.subheader("GIAC Python Coder (GPYC)")
+    st.write("Credly badge link below:")
+    components.html(gpyc_html, height=250)
 
 with sans_col3:
-  st.subheader("GIAC Security Essentials Certification (GSEC)")
-  st.write("Credly badge link below:")
-  components.html(gsec_html, height=250)
+    st.subheader("GIAC Security Essentials Certification (GSEC)")
+    st.write("Credly badge link below:")
+    components.html(gsec_html, height=250)
+
+    st.subheader("GIAC Certified Intrusion Analyst (GCIA)")
+    st.write("Credly badge link below:")
+    components.html(gcia_html, height=250)
 
 st.divider()
 
 st.title("CTF Badges")
 
-ctf_col1, ctf_col2 = st.columns(2, gap='small')
+ctf_col1, ctf_col2 = st.columns(2, gap="small")
 with ctf_col1:
-  st.subheader("US Cyber Open")
-  st.write("Canvas badge link below:")
-  components.html(us_cyber_html, height=250)
+    st.subheader("US Cyber Open")
+    st.write("Canvas badge link below:")
+    components.html(us_cyber_html, height=250)
 
 with ctf_col2:
-  st.subheader("NCAE Cyber Games")
-  st.write("Canvas badge link below:")
-  components.html(ncae_html, height=250)
+    st.subheader("NCAE Cyber Games")
+    st.write("Canvas badge link below:")
+    components.html(ncae_html, height=250)
 
 with ctf_col1:
-  st.subheader("NCL Fall 2025")
-  st.image("./assets/ncl-badge-2025.png", width=180)
+    st.subheader("NCL Fall 2025")
+    st.image("./assets/ncl-badge-2025.png", width=180)
