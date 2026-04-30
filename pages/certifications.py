@@ -22,6 +22,10 @@ gpyc_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a8f8c6a4-609f-4603-887b-9b678f6de33e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
 
+gcfe_html = """
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="7063749b-507d-464a-8fbb-70c731fbf71a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+"""
+
 gcia_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a9606881-af56-487b-b37c-b2bb6ac35ee7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
@@ -53,6 +57,10 @@ with sans_col1:
     st.subheader("GIAC Certified Incident Handler (GCIH)")
     st.write("Credly badge link below:")
     components.html(gcih_html, height=250)
+
+    st.subheader("GIAC Certified Forensic Examiner (GCFE)")
+    st.write("Credly badge link below:")
+    components.html(gcfe_html, height=250)
 
 with sans_col2:
     st.subheader("GIAC Foundational Cybersecurity Technologies (GFACT)")
