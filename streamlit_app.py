@@ -28,10 +28,10 @@ ncl_fall_2025 = st.Page(
 )
 
 # --- TOOLS ---
-pychef = st.Page(
-    page="pages/pychef.py",
-    title="PyChef",
-    icon=":material/chef_hat:",
+projects = st.Page(
+    page="pages/projects.py",
+    title="Projects/Tools List",
+    icon=":material/code:",
 )
 
 # --- NAVIGATION SETUP [WITH SECTIONS] ---
@@ -40,7 +40,7 @@ pg = st.navigation(
         "Welcome": [home_page],
         "Info": [about_page, certification_page, resume_page],
         "CTF-Writeups": [ncl_fall_2025],
-        "Tools": [pychef],
+        "Projects/Tools": [projects],
     }
 )
 
