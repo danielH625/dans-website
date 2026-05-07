@@ -10,6 +10,7 @@ with col1:
 
 with col2:
     st.write("CLI tool that can identify hashes individually or from a file.")
+    st.write("")
     st.write(
         "CLI tool that encodes and decodes various ciphers. (inspired by CyberChef)"
     )
