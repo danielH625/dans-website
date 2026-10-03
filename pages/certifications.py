@@ -30,6 +30,10 @@ gcia_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a9606881-af56-487b-b37c-b2bb6ac35ee7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
 
+gcfa_html = """
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="77ef6c69-1bdc-42dc-8b20-3b227052db80" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+"""
+
 advisory_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b219444d-2a56-4a51-8e39-bbb621cf9dcb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
@@ -70,6 +74,10 @@ with sans_col2:
     st.subheader("GIAC Python Coder (GPYC)")
     st.write("Credly badge link below:")
     components.html(gpyc_html, height=250)
+
+    st.subheader("GIAC Certified Forensic Analyst (GCFA)")
+    st.write("Credly badge link below:")
+    components.html(gcfa_html, height=250)
 
 with sans_col3:
     st.subheader("GIAC Security Essentials Certification (GSEC)")
