@@ -15,4 +15,4 @@ with col2:
     st.write(
         "CLI tool that encodes and decodes various ciphers. (inspired by CyberChef)"
     )
-    st.write("CLI tool to scan and connect to WiFi.")
+    st.write("\nCLI tool to scan and connect to WiFi.")
