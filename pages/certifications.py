@@ -34,6 +34,10 @@ gcfa_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="77ef6c69-1bdc-42dc-8b20-3b227052db80" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
 
+gmon_html = """
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a654c171-9046-4aae-b3c6-9f995aacc1bb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+"""
+
 advisory_html = """
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b219444d-2a56-4a51-8e39-bbb621cf9dcb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 """
@@ -87,6 +91,10 @@ with sans_col3:
     st.subheader("GIAC Certified Intrusion Analyst (GCIA)")
     st.write("Credly badge link below:")
     components.html(gcia_html, height=250)
+
+    st.subheader("GIAC Continuous Monitoring Certification (GMON)")
+    st.write("Credly badge link below:")
+    components.html(gmon_html, height=250)
 
 st.divider()
 
