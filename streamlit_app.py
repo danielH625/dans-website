@@ -26,6 +26,11 @@ ncl_fall_2025 = st.Page(
     title="NCL Fall 2025 Overview",
     icon=":material/contract_edit:",
 )
+ncl_fall_2026 = st.Page(
+    page="pages/ncl_2026_overview.py",
+    title="NCL Fall 2026 Overview",
+    icon=":material/contract_edit",
+)
 
 # --- TOOLS ---
 projects = st.Page(
@@ -39,7 +44,7 @@ pg = st.navigation(
     {
         "Welcome": [home_page],
         "Info": [about_page, certification_page, resume_page],
-        "CTF-Writeups": [ncl_fall_2025],
+        "CTF-Writeups": [ncl_fall_2025, ncl_fall_2026],
         "Projects/Tools": [projects],
     }
 )
