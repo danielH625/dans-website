@@ -29,7 +29,7 @@ ncl_fall_2025 = st.Page(
 ncl_fall_2026 = st.Page(
     page="pages/ncl_2026_overview.py",
     title="NCL Fall 2026 Overview",
-    icon=":material/contract_edit",
+    icon=":material/contract_edit:",
 )
 
 # --- TOOLS ---
