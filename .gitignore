@@ -13,3 +13,10 @@ node_modules/
 
 # Text files
 *.txt
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/credentials.toml
